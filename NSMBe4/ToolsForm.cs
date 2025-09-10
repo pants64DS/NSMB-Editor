@@ -25,7 +25,7 @@ using System.Windows.Forms;
 
 namespace NSMBe4
 {
-    public partial class ToolsForm : Form
+    public partial class ToolsForm : NSMBeForm
     {
 
         private LevelEditorControl EdControl;

@@ -24,7 +24,7 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace NSMBe4 {
-    public partial class LevelMinimap : Form
+    public partial class LevelMinimap : NSMBeForm
     {
 
         private NSMBLevel Level;

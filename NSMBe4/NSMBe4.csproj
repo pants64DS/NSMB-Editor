@@ -107,6 +107,8 @@
     <Compile Include="LevelSource\ExternalLevelSource.cs" />
     <Compile Include="LevelSource\InternalLevelSource.cs" />
     <Compile Include="LevelSource\LevelSource.cs" />
+    <Compile Include="Mono\WmClass.cs" />
+    <Compile Include="NSMBeForm.cs" />
     <Compile Include="Patcher\Arm9BinaryHandler.cs" />
     <Compile Include="Editor\CoordinateViewer.cs">
       <SubType>UserControl</SubType>

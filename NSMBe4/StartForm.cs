@@ -9,7 +9,7 @@ using NSMBe4.DSFileSystem;
 
 namespace NSMBe4
 {
-    public partial class StartForm : Form
+    public partial class StartForm : NSMBeForm
     {
         bool close = true;
 

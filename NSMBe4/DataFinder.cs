@@ -26,7 +26,7 @@ using NSMBe4.DSFileSystem;
 
 
 namespace NSMBe4 {
-    public partial class DataFinder : Form {
+    public partial class DataFinder : NSMBeForm {
         public DataFinder() {
             InitializeComponent();
             if (Properties.Settings.Default.mdi)

@@ -25,7 +25,7 @@ using System.Windows.Forms;
 
 namespace NSMBe4.TilemapEditor
 {
-    public partial class TilemapEditorWindow : Form
+    public partial class TilemapEditorWindow : NSMBeForm
     {
         Tilemap t;
 

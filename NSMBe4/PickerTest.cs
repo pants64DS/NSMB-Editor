@@ -25,7 +25,7 @@ using System.Windows.Forms;
 
 namespace NSMBe4
 {
-    public partial class PickerTest : Form
+    public partial class PickerTest : NSMBeForm
     {
         public PickerTest(NSMBGraphics g)
         {

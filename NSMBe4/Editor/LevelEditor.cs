@@ -26,7 +26,7 @@ using NSMBe4.DSFileSystem;
 
 
 namespace NSMBe4 {
-    public partial class LevelEditor : Form {
+    public partial class LevelEditor : NSMBeForm {
 
         public ObjectsEditionMode oem;
 

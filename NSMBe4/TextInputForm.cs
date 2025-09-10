@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace NSMBe4
 {
-    public partial class TextInputForm : Form
+    public partial class TextInputForm : NSMBeForm
     {
         public TextInputForm()
         {

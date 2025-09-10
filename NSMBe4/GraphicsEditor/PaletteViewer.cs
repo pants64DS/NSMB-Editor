@@ -26,7 +26,7 @@ using NSMBe4.DSFileSystem;
 
 namespace NSMBe4
 {
-    public partial class PaletteViewer : Form
+    public partial class PaletteViewer : NSMBeForm
     {
         File f;
         Color[] pal;

@@ -25,7 +25,7 @@ using System.Windows.Forms;
 
 namespace NSMBe4
 {
-    public partial class TilesetEditor : Form
+    public partial class TilesetEditor : NSMBeForm
     {
         NSMBTileset t;
         NSMBGraphics g;

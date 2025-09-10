@@ -25,7 +25,7 @@ using System.Windows.Forms;
 
 namespace NSMBe4
 {
-    public partial class ProgressWindow : Form
+    public partial class ProgressWindow : NSMBeForm
     {
         public ProgressWindow(string title)
         {

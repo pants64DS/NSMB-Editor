@@ -26,7 +26,7 @@ using System.Drawing.Drawing2D;
 
 namespace NSMBe4
 {
-    public partial class MdiParentForm : Form
+    public partial class MdiParentForm : NSMBeForm
     {
         public static MdiParentForm instance = null;
 

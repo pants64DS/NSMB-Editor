@@ -24,7 +24,7 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace NSMBe4 {
-    public partial class ImagePreviewer : Form {
+    public partial class ImagePreviewer : NSMBeForm {
         public ImagePreviewer(Image image) {
             InitializeComponent();
             if (Properties.Settings.Default.mdi)

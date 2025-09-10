@@ -25,7 +25,7 @@ using System.Windows.Forms;
 
 namespace NSMBe4
 {
-    public partial class ImageManagerWindow : Form
+    public partial class ImageManagerWindow : NSMBeForm
     {
         public ImageManagerWindow()
         {

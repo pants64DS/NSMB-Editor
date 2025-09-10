@@ -32,7 +32,7 @@ using System.Net;
 
 
 namespace NSMBe4 {
-    public partial class LevelChooser : Form
+    public partial class LevelChooser : NSMBeForm
     {
         public static ImageManagerWindow imgMgr;
         public TextInputForm textForm = new TextInputForm();

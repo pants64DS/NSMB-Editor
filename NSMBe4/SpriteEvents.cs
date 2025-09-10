@@ -9,7 +9,7 @@ using Be.Timvw.Framework.ComponentModel;
 
 namespace NSMBe4
 {
-    public partial class SpriteEventsViewer : Form
+    public partial class SpriteEventsViewer : NSMBeForm
     {
         LevelEditorControl ed;
         SortableBindingList<SpriteDataRow> spriteList = new SortableBindingList<SpriteDataRow>();

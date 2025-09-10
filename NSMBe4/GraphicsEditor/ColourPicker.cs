@@ -24,7 +24,7 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace NSMBe4 {
-    public partial class ColourPicker : Form {
+    public partial class ColourPicker : NSMBeForm {
         public int R { get { return colourPickerControl1.R; } set { colourPickerControl1.R = value; } }
         public int G { get { return colourPickerControl1.G; } set { colourPickerControl1.G = value; } }
         public int B { get { return colourPickerControl1.B; } set { colourPickerControl1.B = value; } }

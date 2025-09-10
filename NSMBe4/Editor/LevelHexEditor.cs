@@ -28,7 +28,7 @@ using NSMBe4.DSFileSystem;
 
 namespace NSMBe4 
 {
-    public partial class LevelHexEditor : Form
+    public partial class LevelHexEditor : NSMBeForm
     {
         File LevelFile;
 

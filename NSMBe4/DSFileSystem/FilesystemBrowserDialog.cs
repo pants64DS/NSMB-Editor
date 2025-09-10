@@ -25,7 +25,7 @@ using System.Windows.Forms;
 
 namespace NSMBe4.DSFileSystem
 {
-    public partial class FilesystemBrowserDialog : Form
+    public partial class FilesystemBrowserDialog : NSMBeForm
     {
         Filesystem fs;
 

@@ -27,7 +27,7 @@ using System.Globalization;
 
 namespace NSMBe4.DSFileSystem
 {
-    public partial class FileHexEditor : Form
+    public partial class FileHexEditor : NSMBeForm
     {
         File f;
 
