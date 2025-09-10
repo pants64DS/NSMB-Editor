@@ -20,6 +20,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Diagnostics;
 using System.IO;
+using System.Windows.Forms;
 
 namespace NSMBe4.Patcher
 {
@@ -39,14 +40,30 @@ namespace NSMBe4.Patcher
         public static int runProcess(string proc, string cwd)
         {
             ProcessStartInfo info = new ProcessStartInfo();
-            info.FileName = "cmd";
-            info.Arguments = "/C " + proc + " || pause";
+            string exeDir = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
+            string terminalEmuFilePath = Path.Combine(exeDir, "terminal_emulator.txt");
+
+            if (File.Exists(terminalEmuFilePath))
+            {
+                string terminalEmu = File.ReadAllText(terminalEmuFilePath).Trim();
+
+                info.FileName = "bash";
+                info.Arguments = $"-c \"{exeDir}/Scripts/call_proc_1.sh {terminalEmu} {proc}\"";
+            }
+            else
+            {
+                info.FileName = "cmd";
+                info.Arguments = "/C " + proc + " || pause";
+            }
+
             info.CreateNoWindow = false;
             info.UseShellExecute = false;
             info.WorkingDirectory = cwd;
 
+            Console.WriteLine($"running \"{info.FileName} {info.Arguments}\"");
             Process p = Process.Start(info);
             p.WaitForExit();
+            Console.WriteLine($"exit code: {p.ExitCode}");
             return p.ExitCode;
         }
     }

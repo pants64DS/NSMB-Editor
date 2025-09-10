@@ -1058,4 +1058,12 @@
       <Name>Be.Windows.Forms.HexBox</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\call_proc_1.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\call_proc_2.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+</ItemGroup>
 </Project>
